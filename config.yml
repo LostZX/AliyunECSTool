@@ -1,0 +1,30 @@
+# 阿里云ECS管理工具配置文件
+
+# 阿里云访问密钥配置
+aliyun:
+  # 您的AccessKey ID
+  access_key_id: 
+  # 您的AccessKey Secret
+  access_key_secret: 
+  # 默认区域ID
+  region_id: "cn-hangzhou"
+
+
+instance:
+  # 计费类型 PayByBandwidth 固定带宽 PayByTraffic 按量付费
+  internet_charge_type: "PayByBandwidth"
+  resource_type: "instance"
+  image_id: "ubuntu_20_04_x64_20G_alibase_20250625.vhd"
+  instance_type: "ecs.e-c1m2.xlarge"
+  instance_name: "balala"
+  internet_max_bandwidth_out: 5
+  v_switch_id: "vsw-"
+  security_group_id: "sg-"
+  system_disk_size: 40
+  system_disk_category: "cloud_essd_entry"
+  instance_charge_type: "PostPaid"
+  spot_strategy: "SpotAsPriceGo"
+  spot_duration: 0
+  password: "123456@qax"
+  amount: 1
+  host_name: "vps"

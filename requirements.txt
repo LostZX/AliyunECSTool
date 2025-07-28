@@ -1,0 +1,7 @@
+alibabacloud_tea_openapi>=0.3.7
+alibabacloud_ecs20140526>=7.0.4
+alibabacloud_tea_util>=0.3.8
+alibabacloud_bssopenapi20171214>=1.0.5
+alibabacloud_vpc20160428>=2.0.20
+pyyaml>=5.4.1
+prettytable>=2.1.0
